@@ -1,3 +1,11 @@
+:root {
+    --text: rgb(254, 254, 251);
+    --background: rgb(4, 4, 1);
+    --primary: rgb(164, 168, 223);
+    --secondary: rgb(42, 40, 15);
+    --accent: rgb(70, 78, 190);
+}
+
 * {
     padding: 0;
     margin: 0;
