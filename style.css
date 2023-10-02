@@ -56,7 +56,7 @@ html, body {
     grid-area: sidebar;
     background-color: var(--accent);
     display: grid;
-    grid-template-rows: minmax(100px, 150px) minmax(150px, 1fr) 1fr;
+    grid-template-rows: minmax(50px, 100px) minmax(150px, 1fr) 1fr;
 }
 
 .sidebar__logo {
@@ -74,4 +74,15 @@ html, body {
     height: 30px;
     width: 30px;
     fill: var(--text);
+}
+
+.sidebar ul li {
+    list-style: none;
+    margin-bottom: 5px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.sidebar ul li:hover {
+    cursor: pointer;
 }
