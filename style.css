@@ -92,6 +92,11 @@ html, body {
     grid-template-rows: repeat(2, 1fr);
 }
 
+.header p, .header li, .header h3 {
+    color: var(--background);
+}
+
+/* row1 start*/
 .header__row1 {
     display: grid;
     grid-auto-flow: column;
@@ -103,14 +108,36 @@ html, body {
 
 .header__row1 h3 {
     font-size: 1rem;
+    font-weight: 400;
+    color: var(--background);
 }
 
 .header__row1 input {
     height: 30px;
     border-radius: 10px;
     margin-right: 20px;
+    background-color: #D9D9D9;
+    border: none;
 }
 
-.header svg {
+.header__row1 svg {
     height: 30px;
 }
+
+/* header row 2 start */
+
+.header__profile {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header__row2 {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.header__row2 svg {
+    height: 50px;
+}
+
