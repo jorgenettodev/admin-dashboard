@@ -43,12 +43,35 @@ html, body {
     grid-area: header;
     background-color: var(--primary);
 }
+
+.main {
+    grid-area: main;
+    background-color: var(--background);
+}
+
+/* SIDEBAR */
+
+/* TODO: Create 3 rows / 1 column */
 .sidebar{
     grid-area: sidebar;
     background-color: var(--accent);
     display: grid;
+    grid-template-rows: minmax(100px, 150px) minmax(150px, 1fr) 1fr;
 }
-.main {
-    grid-area: main;
-    background-color: var(--background);
+
+.sidebar__logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.sidebar__logo > h2 {
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.sidebar__logo > svg {
+    height: 30px;
+    width: 30px;
+    fill: var(--text);
 }
