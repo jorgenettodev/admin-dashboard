@@ -56,7 +56,7 @@ html, body {
     grid-area: sidebar;
     background-color: var(--accent);
     display: grid;
-    grid-template-rows: minmax(50px, 100px) minmax(150px, 1fr) 1fr;
+    grid-template-rows: minmax(50px, 100px) minmax(150px, 200px) minmax(150px,200px);
 }
 
 .sidebar__logo {
