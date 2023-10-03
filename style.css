@@ -201,6 +201,7 @@ html, body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    /* height: min(300px, 50%); */
 }
 
 /* MAIN END */
