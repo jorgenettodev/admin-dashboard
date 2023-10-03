@@ -85,7 +85,7 @@ html, body {
     cursor: pointer;
 }
 
-/* HEADER */
+/* HEADER START*/
 
 .header {
     display: grid;
@@ -162,3 +162,33 @@ html, body {
     padding: 10px;
     font-size: 0.8rem;
 }
+/* HEADER END */
+
+/* MAIN START*/
+.main {
+    display: grid;
+    background-color: var(--background);
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: 
+    "projects announcements"
+    "projects trending";
+    
+}
+
+.projects {
+    grid-area: projects;
+    border: 1px solid yellow;
+}
+.announcements {
+    grid-area: announcements;
+    border: 1px solid yellow;
+}
+.trending {
+    grid-area: trending;
+    border: 1px solid yellow;
+}
+
+
+
+/* MAIN END */
