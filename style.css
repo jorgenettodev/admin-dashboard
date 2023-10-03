@@ -190,5 +190,17 @@ html, body {
 }
 
 
+.main__column-one {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.project-container {
+    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 /* MAIN END */
