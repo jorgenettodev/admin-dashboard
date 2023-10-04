@@ -196,12 +196,26 @@ html, body {
     grid-gap: 10px;
 }
 
-.project-container {
+.main__project {
     background-color: var(--secondary);
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 20px;
+    /* max-height: 250px; */
+    border-radius: 5px;
+
     /* height: min(300px, 50%); */
+}
+
+.project__icons {
+    display: flex;
+    justify-content: end;
+}
+
+.project__icons svg {
+    height: 30px;
+    fill: var(--text);
 }
 
 /* MAIN END */
