@@ -47,6 +47,7 @@ html, body {
 .main {
     grid-area: main;
     background-color: var(--background);
+    grid-gap: 10px;
 }
 
 /* SIDEBAR */
@@ -196,7 +197,7 @@ html, body {
     grid-gap: 10px;
 }
 
-.main__project {
+.main__project, .announces {
     background-color: var(--secondary);
     display: flex;
     flex-direction: column;
