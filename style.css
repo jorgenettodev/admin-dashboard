@@ -226,4 +226,22 @@ html, body {
 
 }
 
+/* trending */
+
+.trending .announces__article {
+    display: flex;
+    /* border: 1px solid fuchsia; */
+    gap: 10px;
+    align-items: center;
+
+}
+
+.trending .announces__article h3 {
+    font-size: 0.8rem;
+}
+
+.announces__article svg {
+    height: 30px;
+    fill:rgb(70, 78, 190);
+}
 /* MAIN END */
